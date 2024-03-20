@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items vertically (center horizontally) */
+  justify-content: center; /* Align items horizontally (center vertically) */
+  height: 100vh; /* Set the height of the container to the full viewport height */
+}
+
+.header {
+  color: darkslategrey;
+  padding: 200px;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 20px;
+  display: flex; /* Enable flexbox layout for content */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Align items horizontally */
+  justify-content: center; /* Align items vertically */
+  text-align: center; /* Center text */
+}
