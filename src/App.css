@@ -1,22 +1,39 @@
 .App {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Align items vertically (center horizontally) */
-  justify-content: center; /* Align items horizontally (center vertically) */
-  height: 100vh; /* Set the height of the container to the full viewport height */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .header {
   color: darkslategrey;
-  padding: 200px;
-  justify-content: center;
+  padding: 8px;
+  font-size: 24px;
 }
 
-.content {
+.controls {
   margin-top: 20px;
-  display: flex; /* Enable flexbox layout for content */
-  flex-direction: column; /* Stack content vertically */
-  align-items: center; /* Align items horizontally */
-  justify-content: center; /* Align items vertically */
-  text-align: center; /* Center text */
+  display: flex;
+  align-items: center;
+}
+
+.controls input[type="number"] {
+  border-radius: 8px; /* Adjust the value as needed */
+  padding: 8px;
+  margin-right: 10px; /* Add some spacing between input and button */
+  border: 1px solid #ccc; /* Add border for better visibility */
+}
+
+.controls button {
+  border-radius: 8px; /* Adjust the value as needed */
+  padding: 8px 16px;
+  background-color: #0d6a78; /* Example color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #0056b3; /* Example color */
 }
